@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#021a13,#0a7089);
+    font-family: sans-serif;
+    gap: 20px;
+    
+}
+body h3{
+    color: white;
+}
+.main{
+    height: 500px;
+    width: 300px;
+    background: linear-gradient(#021a13,#0a7089);
+    border-radius: 30px;
+}
+.search input{
+    height: 20px;
+    width: 220px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 10px 0 0 30px;
+}
+.search i{
+    position: relative;
+    right: 35px;
+
+}
+.musicimg img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 15%;
+}
+.songname{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 80%;
+    /* background-color: white; */
+    margin: auto;
+    margin-top: 2%;
+    width: fit-content;
+    height: 50px;
+
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    gap: 10px;
+}
+
+.player audio{
+    display: none;
+}
+#progress{
+    width: 250px;
+    appearance: none;
+    width: 250px;
+    height: 6px;
+    background:#05c6e8;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#progress::-webkit-slider-thumb{
+    background: #0772a0;
+    -webkit-appearance:none ;
+    /* background-color: #179617; */
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    border: 4px solid #fff;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 1.5rem;
+}
+.icon1:hover{
+    color:white ;
+}
+.icon1:hover{
+    color:white ;
+}
+.icon2:hover{
+    color:white ;
+}
+.icon3:hover{
+    color:white ;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-top:4% ;
+}
+.insta:hover{
+    color: white;
+}
+.github:hover{
+    color: white;
+}
+.facebook:hover{
+    color: white;
+}
+.artistname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    /* background-color: white; */
+    margin: auto;
+    width: fit-content;
+    height: 50px;
+
+}
+.gif img{
+    /* width: fit-content; */
+    /* position: absolute; */
+    margin-top: 0;
+    top: 0px;
+    width: 300px;
+    height: 80px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h3>Music player</h3>
+    <div class="main">
+        <div class="search">
+            <input type="text" placeholder="Enter Song Name">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="musicimg">
+            <img src="https://wallpapercave.com/wp/0l0kzYB.jpg" alt="">
+        </div>
+        <div class="songname"></div>
+        <div class="artistname"></div>
+
+        <div class="player">
+            <audio controls id="song">
+                <source src="" type="audio/mpeg">
+            </audio>
+            <!-- <div class="gif">
+                <img src="J59.gif" alt="">
+            </div> -->
+            <div class="slider">
+                <input type="range" name="" step="1" id="progress">
+            </div>
+            <div class="icons">
+                <div class="icon1">
+                    <i class="fa-solid fa-backward-step" id="prev"></i>
+                </div>
+                <div class="icon2">
+                    <i onclick="playPause()" class="fa-solid fa-play" id="ctrlicon"></i>
+                </div>
+                <div class="icon3">
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div>
+                
+            </div>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-instagram insta"></i>
+            <i class="fa-brands fa-github github"></i>
+            <i class="fa-brands fa-facebook facebook"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
